@@ -12,7 +12,7 @@ export const App = () => {
   return (
     <AppCSS>
       <Viewport user={user}></Viewport>
-      <Statistics data={data} title="Upload stats"></Statistics>
+      <Statistics data={data} title=""></Statistics>
       <FriendList friends={friends} />
       <Transactions user={transactions}></Transactions>
     </AppCSS>

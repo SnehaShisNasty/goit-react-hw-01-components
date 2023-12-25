@@ -12,7 +12,7 @@ export const Statistics = ({ data, title }) => {
   return (
     <Overflow>
       <StatisticsCss>
-        <TitleCss>{title}</TitleCss>
+        {title && <TitleCss>{title}</TitleCss>}
         <List>
           {data.map(({ label, percentage, id }) => (
             <Item key={id}>
