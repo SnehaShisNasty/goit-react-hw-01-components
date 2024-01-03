@@ -27,6 +27,7 @@ export const List = styled.ul`
   margin: 0;
 `;
 export const Item = styled.li`
+  min-width: 134px;
   display: flex;
   align-items: center;
   justify-content: center;
